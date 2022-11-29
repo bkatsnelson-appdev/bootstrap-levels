@@ -2,16 +2,45 @@ body {
   padding: 50px;
 }
 
-.pretty-button {
+
+.basic-button {
   padding: 15px 10px;
-  background-color: blue;
   border: 2px solid;
   border-radius: 10px;
   font-weight: bold;
   color: white;
   cursor: pointer;
+  line-height: 3rem;
+}
+
+.pretty-button {
+  background-color: blue;
 }
 
 .pretty-button:hover {
   background-color: darkblue;
+}
+
+.success-button {
+  background-color: green;
+}
+
+.success-button:hover {
+  background-color: darkgreen;
+}
+
+.secondary-button {
+  background-color: gray;
+}
+
+.secondary-button:hover {
+  background-color: darkgray;
+}
+
+.danger-button {
+  background-color: red;
+}
+
+.danger-button:hover {
+  background-color: rgb(255, 98, 98);
 }
