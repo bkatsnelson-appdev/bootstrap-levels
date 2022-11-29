@@ -1,0 +1,17 @@
+body {
+  padding: 50px;
+}
+
+.pretty-button {
+  padding: 15px 10px;
+  background-color: blue;
+  border: 2px solid;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.pretty-button:hover {
+  background-color: darkblue;
+}
